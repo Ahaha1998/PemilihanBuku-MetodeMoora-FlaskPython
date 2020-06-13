@@ -1,0 +1,30 @@
+{% extends 'layout.html' %} {% block body %}
+
+<h1 class="title-main">MOORA <span class="second">MINDS</span></h1>
+<h4 class="subtitle">A SIMPLE PROJECT BY WAHYU HIDAYAH</h4>
+
+<div class="row main-body">
+  <div class="col left-col">
+    <button
+      type="button"
+      class="button-start"
+      onclick="window.location.href='/fill'"
+    >
+      Start as Guest
+    </button>
+  </div>
+  <div class="col-lg-1 center-col">
+    <h4 class="help-text">Or</h4>
+  </div>
+  <div class="col right-col">
+    <button
+      type="button"
+      class="button-start admin"
+      onclick="window.location.href='/admin'"
+    >
+      Start as Admin
+    </button>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+
+.main-body {
+  padding-top: 20px;
+}
+
+.top100 {
+  margin-top: 100px;
+}
+
+h1.title-main,
+h2.title-main,
+h3.title-main,
+h4.title-main {
+  text-align: center;
+  letter-spacing: 10px;
+  padding-top: 280px;
+  padding-bottom: 10px;
+  font-size: 35px;
+  font-family: "Open Sans";
+  color: #62c24f;
+}
+
+h2.title-main {
+  padding-top: 80px;
+  font-size: 25px;
+}
+
+h3.title-main,
+h4.title-main {
+  font-size: 20px;
+  letter-spacing: 5px;
+  padding-top: 20px;
+  color: #7e7e7e;
+}
+
+h3.title-main {
+  padding-top: 40px;
+}
+
+h4.subtitle {
+  text-align: center;
+  letter-spacing: 5px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: #c1c1c1;
+}
+
+h4.help-text {
+  padding-top: 10px;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+
+h5.card-title {
+  margin-bottom: 6px;
+  letter-spacing: 7px;
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: #104a63;
+}
+
+.fa-star {
+  letter-spacing: 2px;
+  font-size: 10px;
+  color: #f3de3d;
+}
+
+p.card-text {
+  font-size: 12px;
+  font-family: "Open Sans";
+}
+
+.card-body {
+  padding: 10px 15px;
+}
+
+span.second {
+  color: #25b893;
+}
+
+.left-col {
+  text-align: right;
+  padding-right: 0px;
+}
+
+.left-col p {
+  text-align: right;
+  padding-right: 15px;
+}
+
+.center-col {
+  text-align: center;
+  padding: 0px 0px;
+}
+
+.right-col {
+  padding-left: 0px;
+}
+
+.button-start {
+  cursor: pointer;
+  padding: 5px 25px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #62c24f;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 5px #4b943c;
+}
+
+.button-start.admin {
+  background-color: #25b893;
+  box-shadow: 0 5px #18765f;
+}
+
+.button-start.disabled {
+  cursor: not-allowed;
+  background-color: #585858;
+  box-shadow: 0 5px #393939;
+}
+
+.button-start.back {
+  margin-right: 10px;
+  padding: 5px 10px;
+  font-size: 10px;
+  background-color: #bb2323;
+  box-shadow: 0 4px #891919;
+}
+
+.button-start:active {
+  box-shadow: 0 3px #4b943c;
+  transform: translateY(2px);
+}
+
+.button-start.admin:active {
+  box-shadow: 0 3px #18765f;
+  transform: translateY(2px);
+}
+
+.button-start.disabled:active {
+  box-shadow: 0 3px #393939;
+  transform: translateY(2px);
+}
+
+.button-start.back:active {
+  box-shadow: 0 2px #891919;
+  transform: translateY(2px);
+}
+
+button.active.focus,
+button.active:focus,
+button.focus,
+button.focus:active,
+button:active:focus,
+button:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}
+
+a.button-start {
+  appearance: button;
+  -moz-appearance: button;
+  -webkit-appearance: button;
+  text-decoration: none;
+  padding: 5.2px 25px;
+}
+
+a:hover {
+  color: white;
+}
+
+.form-container {
+  padding: 15px 150px;
+}
+
+.table {
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.bot {
+  margin-bottom: 15px;
+}
