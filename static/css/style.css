@@ -73,6 +73,7 @@ p.card-text {
 }
 
 .card-body {
+  margin: 5px 3px;
   padding: 10px 15px;
 }
 
